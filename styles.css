@@ -1,0 +1,139 @@
+
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+nav a {
+  color: hsl(0, 0%, 27%);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ccc428;
+}
+
+main {
+  font-size: 1.1rem;
+}
+
+section#home h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+section#home p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+section#portfolio h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+section#portfolio .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+section#about h2,
+section#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+footer p {
+  font-size: 1.1rem;
+}
+
+
+  
+  /* Custom styles */
+  
+  body {
+    background-color: #f8f8f8;
+  }
+  
+  main {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  section#home {
+    background-image: url(https://fastly.picsum.photos/id/254/4272/2848.jpg?hmac=6WNs3ouhDbyW9Tz4SVY_zNji9jH2g6oX_5j8dZhjCvo);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  section#home h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  section#home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  section#portfolio {
+    text-align: center;
+  }
+  
+  .image-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-card:hover {
+    transform: scale(1.05) translateY(-10px);
+  }
+  
+  section#about {
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  section#contact {
+    background-color: #e0e0e0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+ 
